@@ -60,3 +60,4 @@ const greeting2 = name =>
 
 
 greeting2("Dudu");
+
