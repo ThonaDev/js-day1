@@ -35,3 +35,19 @@ console.log(arr.indexOf(44));
 // find if array exist or not
 console.log(arr.includes(77));
 console.log(arr.includes(7));
+
+
+const fruits = ["apple", "guava", "cherry", "coconut", "grape", "strawberry", "pear"];
+console.log("The index of apple: ", fruits.indexOf("apple"));
+console.log("The index of pear: ", fruits.indexOf("pear"));
+console.log("Is cherry exist? ", fruits.includes("cherry"));
+
+
+// map : loop each element in array
+const num = [1, 2, 3, 4, 5];
+// loop each element and multiple it with 2
+const doubleNum = num.map(num => num * 2);
+console.log(doubleNum);
+
+
+
