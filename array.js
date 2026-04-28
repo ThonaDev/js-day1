@@ -19,3 +19,19 @@ console.log("First arr1: ", arr1);
 console.log("Second arr: ", arr2);
 console.log("Access the first elements in arr2:");
 console.log(console.log(arr2[0]));
+
+// using method in array
+// add element to last 
+arr.push(44);
+console.log(arr);
+// add element to first
+arr.unshift(77);
+console.log(arr);
+
+// find the index of element
+console.log(arr.indexOf(77))
+console.log(arr.indexOf(44));
+
+// find if array exist or not
+console.log(arr.includes(77));
+console.log(arr.includes(7));
