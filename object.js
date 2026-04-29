@@ -19,3 +19,11 @@ const userInfo = {
 
 console.log(userInfo);
 userInfo.greeting();
+
+
+console.log("--------| Destructuring |---------")
+// object destructuring
+const {username, age, email} = userInfo;
+console.log(username);
+console.log(age);
+console.log(email);
